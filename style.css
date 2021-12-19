@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #5cdb95;
+}
+
+header {
+  margin: 0.5rem 0.1rem 1rem 0.1rem;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  text-align: center;
+  font-size: 4rem;
+  color: #edf5e1;
+}
+
+#userInput {
+  background-color: white;
+  font-size: 2rem;
+  width: 100%;
+  padding-left: 1rem;
+  line-height: 1.5;
+  height: 3rem;
+  overflow: hidden;
+}
+
+#calculator {
+  background-color: #05386b;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #05386b;
+  max-width: 400px;
+  margin: auto;
+  padding: 1rem;
+  width: 90vw;
+}
+
+#buttons {
+  font-family: Helvetica, Arial, sans-serif;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+button {
+  border-radius: 10px;
+  border: solid 2px #555;
+  font-weight: bold;
+  color: #555;
+  font-size: 2rem;
+  padding: 0.1rem;
+  line-height: 1.5;
+  margin: 0.1rem;
+  width: 23%;
+}
+
+button:hover {
+  border: solid 2px red;
+  color: black;
+}
+
+#creator-name {
+  font-family: "Dancing Script", cursive;
+  color: #05386b;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 1rem;
+}
